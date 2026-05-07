@@ -1,0 +1,13 @@
+import matplotlib.pyplot as pit
+import numpy as np
+overs=np.arange(1,11)
+scores=[9,2,4,7,8,13,6,7,3,5]
+pit.bar(overs,scores)
+pit.title("INDIA SCORE OVER WISE")
+pit.xlabel("OVERS FROM 1 TO 10")
+pit.ylabel("RUNS BASED ON OVER")
+pit.xticks(overs)
+pit.grid(axis='y',linestyle="--")
+pit.show()
+
+
